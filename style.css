@@ -1,0 +1,111 @@
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.h1 {
+    color: #008caf;
+    font-family: 'Satisfy';
+}
+
+/* Css for fading (Thanks to Danny Nguyuen for helping me out with this)*/
+ 
+ @keyframes fadeIn{
+    0% {opacity: .05;}
+    100% {opacity: 1;}
+}
+ 
+.fade1s {
+    animation-name: fadeIn;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade2s {
+    animation-name: fadeIn;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade3s {
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade4s {
+    animation-name: fadeIn;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade5s {
+    animation-name: fadeIn;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade6s {
+    animation-name: fadeIn;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.fade7s {
+    animation-name: fadeIn;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+
+.Satisfy {
+    font-family: 'Satisfy';
+}
+
+.border {
+    border-color: #008caf;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.imgtilt {
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.imgtilt:hover {
+  -webkit-transform: rotate(4deg);
+     -moz-transform: rotate(4deg);
+       -o-transform: rotate(4deg);
+          transform: rotate(4deg);
+}
+
+.cat {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    display: block;
+    margin: auto;
+}
